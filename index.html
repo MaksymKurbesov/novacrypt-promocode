@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="NovaCrypt">
+    <meta name="description" content="Get an exclusive promo code for trading on NovaCrypt — an innovative cryptocurrency exchange with great conditions!">
+    <meta name="keywords" content="NovaCrypt, crypto exchange, cryptocurrency, trading, bitcoin, ethereum, promo code, bonus">
+    <meta property="og:title" content="Exclusive Promo Code for NovaCrypt!">
+    <meta property="og:description" content="Sign up on NovaCrypt and use the promo code for bonuses when trading cryptocurrency!">
+    <meta property="og:image" content="IMAGE_URL">
+    <meta property="og:url" content="PAGE_URL">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Promo Code for NovaCrypt">
+    <meta name="twitter:description" content="Get a bonus when you register on NovaCrypt!">
+    <meta name="twitter:image" content="IMAGE_URL">
+    <title>Promo Code for NovaCrypt — Get Your Bonus!</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+</head>
+<body>
+<main>
+    <section id="promo">
+        <div class="promo-wrapper">
+            <img class="logotype" src="logotype.svg" width="30%"/>
+            <div class="text-wrapper">
+                <img class="novacrypt-banner" src="novacrypt-banner.svg" width="250"/>
+                <p class="use-promo-text">Use promo code: <span>PROMOCODE10 <img src="copy-icon.svg" width="20"/></span></p>
+                <p class="get-10">GET A 10% BONUS<br/> ON YOUR FIRST<br/> DEPOSIT!</p>
+            </div>
+        </div>
+        <a href="https://novacrypt.exchange/signup" class="claim-button">CLAIM BONUS NOW</a>
+    </section>
+    <p class="copyright">&copy; 2025 NovaCrypt. All rights reserved.</p>
+</main>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+<script>
+  document.querySelector(".use-promo-text").addEventListener("click", (e) => {
+    navigator.clipboard.writeText("PROMOCODE10")
+    Toastify({
+      text: "Promo code successfully copied!",
+      duration: 3000,  // Время показа (3 секунды)
+      close: true,  // Кнопка закрытия
+      gravity: "top",  // Позиция: top или bottom
+      position: "right",  // Расположение: left, center, right
+      backgroundColor: "linear-gradient(to right, #00b09b, #96c93d)",  // Градиент фона
+    }).showToast();
+  })
+
+</script>
+</body>
+</html>
